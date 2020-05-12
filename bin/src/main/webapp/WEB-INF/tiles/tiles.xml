@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="mytemplate"
+		template="/WEB-INF/views/templates/admin_template.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+
+	<definition name="mylogintemplate"
+		template="/WEB-INF/views/templates/login_template.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+
+	<definition name="admin.dashboard.dashboard"
+		extends="mytemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/dashboard.jsp" />
+	</definition>
+
+	<definition name="admin.dashboard.history"
+		extends="mytemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/history.jsp" />
+	</definition>
+	
+	<definition name="admin.dashboard.event"
+		extends="mytemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/event.jsp" />
+	</definition>
+	
+	<definition name="admin.dashboard.statistics_doc"
+		extends="mytemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/statistics_doc.jsp" />
+	</definition>
+
+	<definition name="admin.login.login"
+		extends="mylogintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/login/login.jsp" />
+	</definition>
+
+
+</tiles-definitions>
