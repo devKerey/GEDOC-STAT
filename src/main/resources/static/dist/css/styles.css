@@ -1,0 +1,49 @@
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+a{
+	color: #fff;
+}
+
+a:hover {
+	color: rgba(255,255,255,.5);
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.ap {
+	text-align: center;
+}
+
+.red {
+	color: red;
+}
+
+.mt-autox {
+	margin-top: 19%;
+}
+
+.spacer {
+	margin-top: 19%;
+}
+
+h4 {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+img {
+	margin-left: 40%;
+	padding-top: 40px;
+}
